@@ -34,8 +34,16 @@ class Author
     #     end
     # end
 
-    # def self.most_words
+    
+    # How to do total_words with sum:
+    # def total_words_with_sum
+    #     self.books.sum do |book|
+    #        book.word_count
+    #     end
+    # end
 
+
+    # def self.most_words
     #     self.all.max_by do |author|
     #         author.total_words
     #     end
